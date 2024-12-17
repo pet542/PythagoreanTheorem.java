@@ -6,10 +6,10 @@ public class PythagoreanTheorem {
         String choice, ch;
         double a, b, c;
         
-        System.out.println("Wlecom to PythagoreanTheorem");//faigenomichui
+        System.out.println("Wlecom to PythagoreanTheorem");
         
         try{
-        do {//do and while construct loops
+        do {
         System.out.println("Calculate the side length of a right triangle:");
         System.out.println("You can choice one(1, 2 or 3): ");
         System.out.println("1. Calculate the hypotenuse(c)");
@@ -73,7 +73,6 @@ public class PythagoreanTheorem {
     }
     while ( !choice.trim().equals("1") && !choice.trim().equals("2") && !choice.trim().equals("3") );
     }
-    //Catching Exceptions
     catch(Exception e){
         System.err.println(e);}
 
