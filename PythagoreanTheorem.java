@@ -25,7 +25,7 @@ public class PythagoreanTheorem {
             b = keyboard.nextDouble();
             c = Math.sqrt(a * a + b * b);
             System.out.println("The length of the hypotenuse is: " + c);
-            System.out.print("Continue(Y/N)?");
+            System.out.print("Do you want to try again(Y/N)?");
             ch = keyboard.next();
             if(ch.toLowerCase().equals( "y")||ch.toLowerCase().equals("yes")){
                 choice = "";
@@ -42,7 +42,7 @@ public class PythagoreanTheorem {
             b = keyboard.nextDouble();
             a = Math.sqrt(c * c - b * b);
             System.out.println("The length of the right angle side a: " + a);
-            System.out.print("Continue(Y/N)?");
+            System.out.print("Do you want to try again(Y/N)?");
             ch = keyboard.next();
             if(ch.toLowerCase().equals( "y")||ch.toLowerCase().equals("yes")){
                 choice = "";
@@ -58,7 +58,7 @@ public class PythagoreanTheorem {
             a = keyboard.nextDouble();
             b = Math.sqrt(c * c - a * a);
             System.out.println("The length of the right angle side b: " + b);
-            System.out.print("Continue(Y/N)?");
+            System.out.print("Do you want to try again(Y/N)?");
             ch = keyboard.next();
             if(ch.toLowerCase().equals( "y")||ch.toLowerCase().equals("yes")){
                 choice = "";
